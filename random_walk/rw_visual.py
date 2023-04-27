@@ -4,7 +4,7 @@ from random_walk import RandomWalk
 
 
 while True:
-    rw = RandomWalk(50000)
+    rw = RandomWalk()
     rw.fill_walk()
     plt.style.use('classic')
 
